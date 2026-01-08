@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,14 @@
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Simulador Universitario</h1>
             <p style="color: var(--text-muted); font-size: 1.1rem;">Practica para tu ingreso a la universidad</p>
         </header>
-        
+
         <!-- Home View: Category Selection -->
         <main id="home-view">
             <h2 style="margin-bottom: 2rem;">Elige una Sección</h2>
@@ -57,6 +59,7 @@
             </div>
 
             <div class="question-box">
+                <img id="question-image" class="question-img" src="" alt="Referencia visual" style="display: none;">
                 <p id="question-text" class="question-text">Loading question...</p>
                 <div id="options-container" class="options-grid">
                     <!-- Options injected here -->
@@ -93,4 +96,5 @@
     <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

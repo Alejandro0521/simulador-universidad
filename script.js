@@ -78,6 +78,16 @@ function renderQuestion() {
     currentQSpan.textContent = currentIndex + 1;
     totalQSpan.textContent = currentQuestions.length;
 
+    // Render Image
+    const qImg = document.getElementById('question-image');
+    if (q.image) {
+        qImg.src = q.image;
+        qImg.style.display = 'block';
+    } else {
+        qImg.style.display = 'none';
+        qImg.src = '';
+    }
+
     // Reset Procedure
     procedureBox.style.display = 'none';
 
