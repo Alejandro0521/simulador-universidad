@@ -23,16 +23,32 @@ const finalScoreCircle = document.getElementById('final-score-circle');
 const finalStats = document.getElementById('final-stats');
 
 /**
+ * Shuffles an array in place using the Fisher-Yates (Knuth) algorithm.
+ * @param {Array} array The array to shuffle.
+ * @returns {Array} The shuffled array.
+ */
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+}
+
+/**
  * Start the quiz for a specific category
  */
 function startQuiz(category) {
     // Filter questions
-    currentQuestions = quizData.filter(q => q.category === category);
+    let filtered = quizData.filter(q => q.category === category);
 
-    if (currentQuestions.length === 0) {
+    if (filtered.length === 0) {
         alert("No hay preguntas disponibles para esta sección aún.");
         return;
     }
+
+    // Shuffle Questions
+    currentQuestions = shuffleArray(filtered);
 
     // Reset State
     currentIndex = 0;
@@ -161,4 +177,15 @@ function returnHome() {
  */
 function playSound(type) {
     // Could add simple Audio objects here if requested
+}
+
+/**
+ * Utility: Shuffle Array (Fisher-Yates)
+ */
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
