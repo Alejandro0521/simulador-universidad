@@ -208,9 +208,6 @@ function playSound(type) {
     // Could add simple Audio objects here if requested
 }
 
-/**
- * Utility: Shuffle Array (Fisher-Yates)
- */
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -218,3 +215,67 @@ function shuffleArray(array) {
     }
     return array;
 }
+
+// --- Personalization for Carolina ---
+
+const phrases = [
+    "¡Tú puedes con esto y más, Carolina!",
+    "El éxito es la suma de pequeños esfuerzos repetidos cada día.",
+    "Visualiza tu nombre en la lista de aceptados.",
+    "Estás a un paso de cumplir tus sueños universitarios.",
+    "Confía en tu preparación y en tu inteligencia.",
+    "Cada respuesta correcta te acerca más a tu meta.",
+    "La disciplina es el puente entre tus metas y tus logros.",
+    "¡Vamos Carolina! Tu futuro brillante te espera.",
+    "Hoy es un excelente día para aprender algo nuevo.",
+    "Respira profundo y confía en ti misma."
+];
+
+function updateGreeting() {
+    const greetingEl = document.getElementById('greeting');
+    const hour = new Date().getHours();
+    let greeting = "Hola";
+
+    if (hour >= 5 && hour < 12) {
+        greeting = "Buenos días";
+    } else if (hour >= 12 && hour < 20) {
+        greeting = "Buenas tardes";
+    } else {
+        greeting = "Buenas noches";
+    }
+
+    if (greetingEl) {
+        greetingEl.textContent = `${greeting} Carolina`;
+    }
+}
+
+function startMotivationRotator() {
+    const motivationEl = document.getElementById('motivation');
+    if (!motivationEl) return;
+
+    // Initial set
+    motivationEl.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+
+    // Rotate every minute (60000 ms)
+    setInterval(() => {
+        const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+
+        // Simple fade out/in effect
+        motivationEl.style.transition = "opacity 0.5s ease";
+        motivationEl.style.opacity = 0;
+
+        setTimeout(() => {
+            motivationEl.textContent = randomPhrase;
+            motivationEl.style.opacity = 1;
+        }, 500);
+
+    }, 60000);
+}
+
+// Initialize Personalization
+document.addEventListener('DOMContentLoaded', () => {
+    updateGreeting();
+    startMotivationRotator();
+    // Re-check greeting every minute
+    setInterval(updateGreeting, 60000);
+});
