@@ -47,8 +47,8 @@ function startQuiz(category) {
         return;
     }
 
-    // Shuffle Questions
-    currentQuestions = shuffleArray(filtered);
+    // Use questions in original order
+    currentQuestions = filtered;
 
     // Reset State
     currentIndex = 0;
