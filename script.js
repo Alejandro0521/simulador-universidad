@@ -78,6 +78,31 @@ function renderQuestion() {
     currentQSpan.textContent = currentIndex + 1;
     totalQSpan.textContent = currentQuestions.length;
 
+    // Render Reading Passage (if any)
+    let readingContainer = document.getElementById('reading-container');
+    if (!readingContainer) {
+        readingContainer = document.createElement('div');
+        readingContainer.id = 'reading-container';
+        readingContainer.style.background = 'rgba(255,255,255,0.05)';
+        readingContainer.style.padding = '1.5rem';
+        readingContainer.style.borderRadius = '8px';
+        readingContainer.style.marginBottom = '2rem';
+        readingContainer.style.borderLeft = '4px solid var(--accent)';
+        readingContainer.style.fontSize = '1rem';
+        readingContainer.style.lineHeight = '1.6';
+        readingContainer.style.textAlign = 'justify';
+        // Insert before question text
+        questionText.parentNode.insertBefore(readingContainer, questionText);
+    }
+
+    if (q.reading) {
+        readingContainer.innerHTML = `<h4 style="margin-bottom:0.5rem; color:var(--text-muted); text-transform:uppercase; font-size:0.8rem;">Lectura de Referencia</h4>${q.reading}`;
+        readingContainer.style.display = 'block';
+    } else {
+        readingContainer.style.display = 'none';
+        readingContainer.innerHTML = '';
+    }
+
     // Render Image or Visual
     const qImg = document.getElementById('question-image');
     // Create or select a container for visual HTML if not acts as image
