@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Examen Universitario</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simulador Universitario</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem;">Practica para tu ingreso a la universidad</p>
+        </header>
+        
+        <!-- Home View: Category Selection -->
+        <main id="home-view">
+            <h2 style="margin-bottom: 2rem;">Elige una Sección</h2>
+            <div class="category-grid">
+                <div class="category-card" onclick="startQuiz('PENSAMIENTO MATEMÁTICO')">
+                    <span class="card-icon">🧮</span>
+                    <h3 class="card-title">Pensamiento Matemático</h3>
+                    <p class="card-desc">Álgebra, geometría, trigonometría y aritmética.</p>
+                </div>
+                <div class="category-card" onclick="startQuiz('PENSAMIENTO ANALÍTICO')">
+                    <span class="card-icon">🧩</span>
+                    <h3 class="card-title">Pensamiento Analítico</h3>
+                    <p class="card-desc">Series espaciales, lógica verbal y razonamiento.</p>
+                </div>
+                <div class="category-card" onclick="startQuiz('ESTRUCTURA DE LA LENGUA')">
+                    <span class="card-icon">📝</span>
+                    <h3 class="card-title">Estructura de la Lengua</h3>
+                    <p class="card-desc">Gramática, sintaxis, verbos y oraciones.</p>
+                </div>
+                <div class="category-card" onclick="startQuiz('COMPRENSIÓN LECTORA')">
+                    <span class="card-icon">📚</span>
+                    <h3 class="card-title">Comprensión Lectora</h3>
+                    <p class="card-desc">Análisis de textos, inferencias y mensajes.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Quiz View -->
+        <section id="quiz-view" class="quiz-container">
+            <div class="quiz-header">
+                <div class="progress-pill">
+                    Pregunta <span id="current-q">1</span> de <span id="total-q">10</span>
+                </div>
+                <div class="score-display">
+                    Puntos: <span id="current-score">0</span>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p id="question-text" class="question-text">Loading question...</p>
+                <div id="options-container" class="options-grid">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+
+            <div id="procedure-box" class="procedure-box">
+                <div class="procedure-title">Explicación / Procedimiento</div>
+                <div id="procedure-text" class="procedure-content">
+                    <!-- Procedure injected here -->
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="end-btn" class="btn-secondary" onclick="returnHome()">Salir</button>
+                <button id="next-btn" class="btn-primary" onclick="nextQuestion()">Siguiente</button>
+            </div>
+        </section>
+
+        <!-- Results View -->
+        <section id="results-view" class="results-container">
+            <h2 style="margin-bottom: 2rem;">Resultados de la Sección</h2>
+            <div id="final-score-circle" class="score-circle">
+                0%
+            </div>
+            <p id="final-stats" style="color: var(--text-muted); font-size: 1.2rem; margin-bottom: 2rem;">
+                Acertaste X de Y preguntas.
+            </p>
+            <button class="btn-primary" onclick="returnHome()">Volver al Inicio</button>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
