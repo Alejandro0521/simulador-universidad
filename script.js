@@ -78,12 +78,31 @@ function renderQuestion() {
     currentQSpan.textContent = currentIndex + 1;
     totalQSpan.textContent = currentQuestions.length;
 
-    // Render Image
+    // Render Image or Visual
     const qImg = document.getElementById('question-image');
-    if (q.image) {
+    // Create or select a container for visual HTML if not acts as image
+    let visualContainer = document.getElementById('visual-container');
+    if (!visualContainer) {
+        visualContainer = document.createElement('div');
+        visualContainer.id = 'visual-container';
+        visualContainer.style.marginBottom = '1.5rem';
+        // Insert after image
+        qImg.parentNode.insertBefore(visualContainer, qImg.nextSibling);
+    }
+
+    if (q.visual) {
+        // Show custom SVG/HTML Visual
+        visualContainer.innerHTML = q.visual;
+        visualContainer.style.display = 'block';
+        qImg.style.display = 'none';
+    } else if (q.image) {
+        // Show Image
+        visualContainer.style.display = 'none';
         qImg.src = q.image;
         qImg.style.display = 'block';
     } else {
+        // Hide both
+        visualContainer.style.display = 'none';
         qImg.style.display = 'none';
         qImg.src = '';
     }

@@ -1,7 +1,21 @@
 const quizData = [
     // --- PENSAMIENTO MATEMÁTICO (1-28) ---
     { id: 1, category: "PENSAMIENTO MATEMÁTICO", question: "¿Cuál es el resultado de la operación -20 + (-5)?", options: ["-4", "2", "4", "-25"], correct: 3, procedure: "-20 + (-5) = -25", image: "WhatsApp Image 2026-01-07 at 21.17.10.jpeg" },
-    { id: 2, category: "PENSAMIENTO MATEMÁTICO", question: "Fracción del área sombreada (Cuadrado con triángulos)", options: ["1/10", "1/8", "1/6", "1/4"], correct: 3, procedure: "Visualmente 1/4 (un triángulo de 4).", image: "WhatsApp Image 2026-01-07 at 21.17.10 (1).jpeg" },
+    {
+        id: 2,
+        category: "PENSAMIENTO MATEMÁTICO",
+        question: "Determina la fracción del área del cuadrado, que representa la región sombreada.",
+        options: ["1/10", "1/8", "1/6", "1/4"],
+        correct: 3,
+        procedure: "El cuadrado está dividido en 4 triángulos iguales por las diagonales. Uno de ellos está sombreado, por lo tanto representa 1/4 del total.",
+        visual: `<svg width="200" height="200" viewBox="0 0 200 200" style="margin: 0 auto; display: block; background: #fff; border-radius: 8px;">
+            <rect x="2" y="2" width="196" height="196" fill="white" stroke="black" stroke-width="2"/>
+            <line x1="0" y1="0" x2="200" y2="200" stroke="black" stroke-width="2"/>
+            <line x1="200" y1="0" x2="0" y2="200" stroke="black" stroke-width="2"/>
+            <path d="M0,0 L200,0 L100,100 Z" fill="#94a3b8" /> 
+            <rect x="0" y="0" width="200" height="200" fill="none" stroke="#333" stroke-width="4"/>
+        </svg>`
+    },
     { id: 3, category: "PENSAMIENTO MATEMÁTICO", question: "Resultado de (3 + (4 - 6)² + 2) + 3", options: ["2", "3", "18", "27"], correct: 3, procedure: "Calculo detallado: 27.", image: "WhatsApp Image 2026-01-07 at 21.17.10 (2).jpeg" },
     { id: 4, category: "PENSAMIENTO MATEMÁTICO", question: "Simplificar 8√2 + 3√4 - 2√18 + 2√9", options: ["8√2 - 2√18 + 12", "11 - √3", "2√2 + 12", "11√3"], correct: 2, procedure: "Simplificación: 2√2 + 12", image: "WhatsApp Image 2026-01-07 at 21.17.11.jpeg" },
     { id: 5, category: "PENSAMIENTO MATEMÁTICO", question: "Lago pierde agua. 3 días >40°, 4 días <=40°.", options: ["21", "27", "31", "35"], correct: 1, procedure: "Total = 27L", image: "WhatsApp Image 2026-01-07 at 21.17.11 (1).jpeg" },
