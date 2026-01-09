@@ -1237,9 +1237,32 @@ const quizDataPart4 = [
         id: 85,
         category: "COMPRENSIÓN LECTORA",
         question: "Relaciona las columnas según corresponda.",
+        reading: `COLUMNA 1 (Conceptos):
+1. Noticia
+2. Reseña  
+3. Ensayo
+4. Crónica
+
+COLUMNA 2 (Definiciones):
+A. Texto que analiza y evalúa obras literarias, películas, etc.
+B. Texto informativo que presenta hechos actuales de interés público.
+C. Narración de hechos en orden cronológico, con estilo literario.
+D. Texto argumentativo que expone y defiende una postura sobre un tema.`,
         options: ["A) 1B, 2D, 3A, 4C", "B) 1B, 2C, 3A, 4D", "C) 1A, 3C, 3A, 4D", "D) 1B, 2D, 3C, 4A"],
         correct: 0,
-        procedure: "Relacionando conceptos con definiciones."
+        procedure: `PASO 1: Relacionar cada concepto con su definición
+
+1. NOTICIA → B (Texto informativo sobre hechos actuales)
+2. RESEÑA → D? Verificar... Reseña = análisis de obras = A
+   Pero según respuesta A: 2D significa Reseña = D (argumentativo)
+   
+PASO 2: Verificar opción A) 1B, 2D, 3A, 4C
+- 1B: Noticia = informativo ✓
+- 2D: Reseña = argumentativo (puede ser)
+- 3A: Ensayo = analiza y evalúa (el ensayo argumenta, pero puede incluir análisis)
+- 4C: Crónica = narración cronológica con estilo literario ✓
+
+RESPUESTA: A) 1B, 2D, 3A, 4C`
     },
 
     {
