@@ -605,29 +605,101 @@ const quizDataPart2 = [
         id: 29,
         category: "PENSAMIENTO ANALÍTICO",
         question: "En la lectura 1, predomina el lenguaje...",
-        reading: `LECTURA 1:
-Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca deben suspender sus actividades; pues su principal obligación es asistir a clases para aprender. Los acontecimientos en los que se han visto involucrados, como las megamarchas en el Zócalo, la suspensión de clases en el Distrito Federal, la exigencia de auditorías académicas en todas las unidades sostenido con las autoridades educativas del país, han hecho más la imagen del IPN...`,
+        reading: `A partir de las 2 lecturas siguientes contesta las preguntas 29, 30 y 31.
+
+LECTURA 1:
+Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca deben suspender sus actividades; pues su principal obligación es asistir a clases para aprender. Los acontecimientos en los que se han visto involucrados, como las megamarchas en el Zócalo, la suspensión de clases en el Distrito Federal, la exigencia de auditorías académicas en todas las unidades sostenido con las autoridades educativas del país, han hecho más daño a la imagen del IPN. Con cada día de paro que transcurre, esta institución pierde su credibilidad en el compromiso que tiene con la calidad de la educación superior, abre la interrupción de los proyectos que tiene con la iniciativa privada, provoca que las empresas busquen a universidades más serias para colaborar en proyectos de investigación que beneficien a todas las clases sociales del país.
+
+La Asamblea General Politécnica no tiene un rumbo definido, pues con cada reunión con las autoridades, presenta una exigencia nueva: Inicialmente solicitaron la cancelación del nuevo plan de estudios, posteriormente la renuncia de la Directora General, y ahora exigen un mayor presupuesto a educación superior, así como la no integración del IPN al modelo del Instituto Tecnológico de México. También se menciona la búsqueda de la autonomía y la designación de un nuevo Director General.
+
+¿Hasta cuándo permitirán las autoridades, que un grupo de estudiantes confundidos, interrumpa las actividades de una institución de educación superior tan importante?
+
+Por ello, invito a los alumnos del IPN a reflexionar y a volver a clases lo más pronto posible, antes de que volverán su importante institución pierda irremediablemente, todo su prestigio.
+
+LECTURA 2:
+Los alumnos de cualquier escuela del país, tenemos el derecho para defender la calidad educativa.
+
+Muchas veces el gobierno ha atentado contra la educación, en este caso lo está tratando de imponer al IPN. Pero digamos: "No dejemos que nos den atole con dedo". Ya no somos los jóvenes ignorantes de antaño. No permitamos que el mal gobierno nos diga una cosa y haga otra.
+
+La televisión como siempre, oculta lo que realmente está pasando, está vendida a los intereses del gobierno. Ya se han publicado en las redes sociales, los chismes que el gobierno federal extiende a los principales noticieros.
+
+"El plan de estudios que el gobierno está imponiendo hace que las carreras que ofrece el IPN, quiten obligatoriamente a bachillerato, bajando el nivel académico de todas las carreras y resultando en los atajes del propio gobierno, que pretende destruir la educación pública."
+
+"¿Por qué hacemos marchas? Porque si no actuamos así, el gobierno no nos pela, hasta que promamos las actividades académicas, el gobierno se dio cuenta de la gravedad de la situación."
+
+"A todos aquellos que nos piden regresar a clases, les decimos: como sabemos que las palabras se las lleva el viento, seguiremos en paro, hasta que las autoridades firmen los acuerdos a los que se comprometieron. Queremos un nuevo director que en verdad nos represente, que firme como testigo de dichos acuerdos."
+
+"¡Ni un paso atrás en nuestra lucha, porque queremos profesionistas de calidad: exigimos mayor presupuesto para el IPN, autonomía para que nosotros mismos podamos decidir lo mejor para nuestra institución!"`,
         options: ["A) coloquial", "B) culto", "C) científico", "D) literario"],
         correct: 1,
-        procedure: "El texto usa vocabulario formal, estructura gramatical correcta y argumentación elaborada. Es lenguaje CULTO."
+        procedure: `PASO 1: Analizar el vocabulario y estructura de la Lectura 1
+- Usa vocabulario formal: "credibilidad", "iniciativa privada", "auditorías"
+- Estructura gramatical correcta y elaborada
+- Tono argumentativo profesional
+
+PASO 2: Identificar el tipo de lenguaje
+- Lenguaje CULTO: formal, estructurado, sin coloquialismos
+
+RESPUESTA: B) culto`
     },
 
     {
         id: 30,
         category: "PENSAMIENTO ANALÍTICO",
         question: "¿En qué modo discursivo se encuentran escritos los 2 textos?",
+        reading: `(Ver lecturas completas en pregunta 29)
+
+LECTURA 1: Un profesor argumenta que los estudiantes deben regresar a clases y critica el paro.
+
+LECTURA 2: Estudiantes defienden su derecho a protestar y argumentan contra el gobierno.`,
         options: ["A) Narrativo", "B) Expositivo", "C) Argumentativo", "D) Descriptivo"],
         correct: 2,
-        procedure: "Ambos textos presentan opiniones y buscan convencer al lector. Modo ARGUMENTATIVO."
+        procedure: `PASO 1: Identificar el propósito de cada texto
+- Lectura 1: El profesor ARGUMENTA por qué los alumnos deben volver a clases
+- Lectura 2: Los estudiantes ARGUMENTAN por qué deben seguir en paro
+
+PASO 2: Características del modo argumentativo
+- Presenta una postura/opinión
+- Busca convencer al lector
+- Usa razones y evidencias
+
+PASO 3: Ambos textos cumplen estas características
+- Presentan opiniones contrarias
+- Intentan persuadir al lector
+
+RESPUESTA: C) Argumentativo`
     },
 
     {
         id: 31,
         category: "PENSAMIENTO ANALÍTICO",
         question: "¿Cuál proposición resulta falsa?",
+        reading: `(Ver lecturas completas en pregunta 29)`,
         options: ["A) En ambos textos se habla de calidad educativa", "B) Los dos textos fueron escritos por estudiantes", "C) Los dos autores mencionan obligaciones", "D) Las lecturas muestran posiciones opuestas"],
         correct: 1,
-        procedure: "La Lectura 1 es de un PROFESOR, no de un estudiante. Opción B es FALSA."
+        procedure: `PASO 1: Verificar cada proposición
+
+A) ¿Hablan de calidad educativa?
+- Lectura 1: "compromiso con la calidad de la educación superior" ✓
+- Lectura 2: "queremos profesionistas de calidad" ✓
+VERDADERO
+
+B) ¿Fueron escritos por estudiantes?
+- Lectura 1: "Como PROFESOR opino..." ✗
+- Lectura 2: "Los alumnos... tenemos el derecho" ✓
+FALSO - La Lectura 1 es de un PROFESOR
+
+C) ¿Mencionan obligaciones?
+- Lectura 1: "su principal obligación es asistir a clases" ✓
+- Lectura 2: menciona responsabilidades ✓
+VERDADERO
+
+D) ¿Muestran posiciones opuestas?
+- Lectura 1: pro-regreso a clases
+- Lectura 2: pro-paro estudiantil
+VERDADERO
+
+RESPUESTA: B) Los dos textos fueron escritos por estudiantes (FALSO)`
     },
 
     {
