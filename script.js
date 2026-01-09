@@ -1,10 +1,8 @@
-// State
 let currentQuestions = [];
 let currentIndex = 0;
 let score = 0;
-let userAnswers = []; // Store answers for review if needed
+let userAnswers = [];
 
-// DOM Elements
 const homeView = document.getElementById('home-view');
 const quizView = document.getElementById('quiz-view');
 const resultsView = document.getElementById('results-view');
@@ -160,16 +158,12 @@ function selectAnswer(selectedIndex, btnElement) {
     const allBtns = optionsContainer.querySelectorAll('.option-btn');
     allBtns.forEach(btn => btn.disabled = true);
 
-    // Highlight selected
     if (isCorrect) {
         btnElement.classList.add('correct');
-        score += 10; // 10 points per correct answer
-        playSound('success');
+        score += 10;
     } else {
         btnElement.classList.add('wrong');
-        // Highlight correct one
         allBtns[q.correct].classList.add('correct');
-        playSound('error');
     }
 
     updateHeader();
@@ -224,21 +218,6 @@ function returnHome() {
     resultsView.style.display = 'none';
     quizView.style.display = 'none';
     homeView.style.display = 'block';
-}
-
-/**
- * Sound Effects (Optional placeholders)
- */
-function playSound(type) {
-    // Could add simple Audio objects here if requested
-}
-
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
 }
 
 // --- Personalization for Carolina ---

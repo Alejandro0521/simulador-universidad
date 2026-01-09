@@ -1,27 +1,17 @@
-/* Existing styles */
 :root {
   /* Premium Palette */
   --primary: #4F46E5;
-  /* Indigo 600 */
   --primary-dark: #4338ca;
   --secondary: #10B981;
-  /* Emerald 500 - Correct Answer */
   --accent: #F59E0B;
-  /* Amber 500 - Highlight/Score */
   --danger: #EF4444;
-  /* Red 500 - Wrong Answer */
 
   --bg-body: #0f172a;
-  /* Slate 900 */
   --bg-card: #1e293b;
-  /* Slate 800 */
   --bg-card-hover: #334155;
-  /* Slate 700 */
 
   --text-main: #f8fafc;
-  /* Slate 50 */
   --text-muted: #94a3b8;
-  /* Slate 400 */
 
   --glass-border: 1px solid rgba(255, 255, 255, 0.1);
   --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -49,7 +39,7 @@ body {
   line-height: 1.6;
 }
 
-/* Typography */
+
 h1,
 h2,
 h3 {
@@ -63,10 +53,10 @@ h1 {
   margin-bottom: 0.5rem;
   background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Layout */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -80,7 +70,6 @@ header {
   padding-top: 2rem;
 }
 
-/* Category Grid */
 .category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -140,10 +129,8 @@ header {
   color: var(--text-muted);
 }
 
-/* Quiz Interface */
 .quiz-container {
   display: none;
-  /* Hidden by default */
   background: var(--bg-card);
   border: var(--glass-border);
   border-radius: var(--radius-lg);
@@ -240,7 +227,6 @@ header {
   color: #fca5a5;
 }
 
-/* Procedure Section */
 .procedure-box {
   margin-top: 2rem;
   background: rgba(0, 0, 0, 0.2);
@@ -248,7 +234,6 @@ header {
   border-radius: var(--radius-md);
   border-left: 4px solid var(--primary);
   display: none;
-  /* Hidden until updated */
   animation: slideDown 0.3s ease-out;
 }
 
@@ -267,7 +252,6 @@ header {
   white-space: pre-wrap;
 }
 
-/* Controls */
 .controls {
   margin-top: auto;
   padding-top: 2rem;
@@ -308,7 +292,6 @@ header {
   display: none;
 }
 
-/* Results View */
 .results-container {
   display: none;
   text-align: center;
@@ -370,7 +353,6 @@ header {
   }
 }
 
-/* Animations */
 .animate-shake {
   animation: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
 }

@@ -1,0 +1,10 @@
+# Imágenes
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.webp
+*.svg
+
+# macOS
+.DS_Store

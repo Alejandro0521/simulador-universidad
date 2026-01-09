@@ -596,12 +596,11 @@ RESPUESTA: D) 35.67`,
     }
 ];
 
-// Continúa el array quizData...
 const quizDataPart2 = [
     // ═══════════════════════════════════════════════════════════════
     // PENSAMIENTO ANALÍTICO (Preguntas 29-55)
     // ═══════════════════════════════════════════════════════════════
-    
+
     {
         id: 29,
         category: "PENSAMIENTO ANALÍTICO",
@@ -612,7 +611,7 @@ Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca 
         correct: 1,
         procedure: "El texto usa vocabulario formal, estructura gramatical correcta y argumentación elaborada. Es lenguaje CULTO."
     },
-    
+
     {
         id: 30,
         category: "PENSAMIENTO ANALÍTICO",
@@ -621,7 +620,7 @@ Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca 
         correct: 2,
         procedure: "Ambos textos presentan opiniones y buscan convencer al lector. Modo ARGUMENTATIVO."
     },
-    
+
     {
         id: 31,
         category: "PENSAMIENTO ANALÍTICO",
@@ -630,7 +629,7 @@ Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca 
         correct: 1,
         procedure: "La Lectura 1 es de un PROFESOR, no de un estudiante. Opción B es FALSA."
     },
-    
+
     {
         id: 32,
         category: "PENSAMIENTO ANALÍTICO",
@@ -639,7 +638,7 @@ Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca 
         correct: 3,
         procedure: "Yuan es la moneda de China. Libra es la moneda de Reino Unido. YEN-REINO UNIDO completa la analogía de moneda-país."
     },
-    
+
     {
         id: 33,
         category: "PENSAMIENTO ANALÍTICO",
@@ -648,7 +647,7 @@ Como profesor opino, que los alumnos del Instituto Politécnico Nacional, nunca 
         correct: 2,
         procedure: "PLUMA y BOLÍGRAFO son sinónimos (instrumentos para escribir). Respuesta: C) 1 y 5"
     },
-    
+
     {
         id: 34,
         category: "PENSAMIENTO ANALÍTICO",
@@ -661,7 +660,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </div>`,
         procedure: "Según la tabla de códigos, 'i' no corresponde a ninguna letra de BECA."
     },
-    
+
     {
         id: 35,
         category: "PENSAMIENTO ANALÍTICO",
@@ -670,7 +669,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 1,
         procedure: "Sustituyendo las figuras por sus lados y sumando = 20."
     },
-    
+
     {
         id: 36,
         category: "PENSAMIENTO ANALÍTICO",
@@ -679,7 +678,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 2,
         procedure: "Decodificando los símbolos según la clave = HABÍA CADA CEJA"
     },
-    
+
     {
         id: 37,
         category: "PENSAMIENTO ANALÍTICO",
@@ -688,7 +687,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 3,
         procedure: "B=2, A=1, D=4, E=5, A=1. Suma=13. (13-0)/2=6.5"
     },
-    
+
     {
         id: 38,
         category: "PENSAMIENTO ANALÍTICO",
@@ -697,7 +696,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 0,
         procedure: "Siguiendo el patrón de codificación = crffd"
     },
-    
+
     {
         id: 39,
         category: "PENSAMIENTO ANALÍTICO",
@@ -706,7 +705,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 0,
         procedure: "AMO (sustantivo=dueño) y AMO (verbo=querer) son HOMÓNIMOS: misma escritura, diferente significado."
     },
-    
+
     {
         id: 40,
         category: "PENSAMIENTO ANALÍTICO",
@@ -716,7 +715,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         visual: `<div style="text-align:center;font-size:3rem">🌴 + 🕰️</div>`,
         procedure: "Siguiendo las instrucciones: P-A-L-M-E-R-A = PALMERA"
     },
-    
+
     {
         id: 41,
         category: "PENSAMIENTO ANALÍTICO",
@@ -725,7 +724,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 0,
         procedure: "Analizando el patrón de la secuencia visual."
     },
-    
+
     {
         id: 42,
         category: "PENSAMIENTO ANALÍTICO",
@@ -738,7 +737,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </table>`,
         procedure: "42 ÷ 4 = 10 resto 2. Posición 2 = PAPAYA"
     },
-    
+
     {
         id: 43,
         category: "PENSAMIENTO ANALÍTICO",
@@ -747,7 +746,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 0,
         procedure: "33 ÷ 4 = 8 resto 1. Posición 1 = RECTANGULAR"
     },
-    
+
     {
         id: 44,
         category: "PENSAMIENTO ANALÍTICO",
@@ -756,7 +755,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 3,
         procedure: "Mérida mantuvo 2.7% en dos años consecutivos."
     },
-    
+
     {
         id: 45,
         category: "PENSAMIENTO ANALÍTICO",
@@ -765,7 +764,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 2,
         procedure: "Si n×k=15 y n es entero, k puede ser 1,3,5,15. De las opciones: C) 5"
     },
-    
+
     {
         id: 46,
         category: "PENSAMIENTO ANALÍTICO",
@@ -779,7 +778,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </div>`,
         procedure: "Patrón: n² para figura n. Figura 8: Calculando la sucesión = 36"
     },
-    
+
     {
         id: 47,
         category: "PENSAMIENTO ANALÍTICO",
@@ -788,7 +787,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 2,
         procedure: "Inicio: 5 partes. Se toman 3 y quedan 2. Cada una de las 3 se divide en 5 = 15. Total: 2 + 15 = 17"
     },
-    
+
     {
         id: 48,
         category: "PENSAMIENTO ANALÍTICO",
@@ -804,7 +803,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </svg>`,
         procedure: "Visualización espacial del recorte formando un cubo."
     },
-    
+
     {
         id: 49,
         category: "PENSAMIENTO ANALÍTICO",
@@ -820,7 +819,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </svg>`,
         procedure: "5 cuadrados de área total 80cm². Cada uno: 16cm². Lado: 4cm. Perímetro externo: 64cm"
     },
-    
+
     {
         id: 50,
         category: "PENSAMIENTO ANALÍTICO",
@@ -829,7 +828,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 1,
         procedure: "Suma de cuadrados: 1² + 2² + 3² + ... + 30² = n(n+1)(2n+1)/6 = 30(31)(61)/6 = 9455. Verificar con opciones."
     },
-    
+
     {
         id: 51,
         category: "PENSAMIENTO ANALÍTICO",
@@ -843,7 +842,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </svg>`,
         procedure: "Contando triángulos pequeños, medianos y grandes: 13 triángulos"
     },
-    
+
     {
         id: 52,
         category: "PENSAMIENTO ANALÍTICO",
@@ -855,7 +854,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
 </div>`,
         procedure: "Convirtiendo cada byte binario a decimal y luego a ASCII."
     },
-    
+
     {
         id: 53,
         category: "PENSAMIENTO ANALÍTICO",
@@ -864,7 +863,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 2,
         procedure: "Contando las caras después de los cortes: 40 caras"
     },
-    
+
     {
         id: 54,
         category: "PENSAMIENTO ANALÍTICO",
@@ -873,7 +872,7 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         correct: 1,
         procedure: "Analizando patrón de letras y números, G14O17 rompe la secuencia."
     },
-    
+
     {
         id: 55,
         category: "PENSAMIENTO ANALÍTICO",
@@ -891,7 +890,7 @@ const quizDataPart3 = [
     // ═══════════════════════════════════════════════════════════════
     // ESTRUCTURA DE LA LENGUA (Preguntas 56-82)
     // ═══════════════════════════════════════════════════════════════
-    
+
     {
         id: 56,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -900,7 +899,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "ALGUNOS modifica al sustantivo 'coches'. Es un adjetivo determinativo."
     },
-    
+
     {
         id: 57,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -909,7 +908,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "'EN SUS NIDOS' es complemento circunstancial de lugar."
     },
-    
+
     {
         id: 58,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -918,7 +917,7 @@ const quizDataPart3 = [
         correct: 2,
         procedure: "Oración simple = un solo verbo conjugado. 'ES' es el único verbo en opción C."
     },
-    
+
     {
         id: 59,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -927,7 +926,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "Sustantivos: demencia(3), capacidad(7), problemas(10), cerebro(11)"
     },
-    
+
     {
         id: 60,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -937,7 +936,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "PEQUEÑA (adjetivo femenino) indica que Momo es mujer."
     },
-    
+
     {
         id: 61,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -946,7 +945,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "Identificando sustantivos según el contexto del texto."
     },
-    
+
     {
         id: 62,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -955,7 +954,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "REVOLUCIONARIO es sustantivo derivado (de revolución), no compuesto."
     },
-    
+
     {
         id: 63,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -964,7 +963,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "ÉSTA, ÉSTE, ÉSTOS son PRONOMBRES DEMOSTRATIVOS."
     },
-    
+
     {
         id: 64,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -973,7 +972,7 @@ const quizDataPart3 = [
         correct: 2,
         procedure: "Verbo transitivo requiere complemento directo. 'SE APLICARÁ el reglamento'."
     },
-    
+
     {
         id: 65,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -982,7 +981,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "El superlativo irregular de POBRE es PAUPÉRRIMO."
     },
-    
+
     {
         id: 66,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -991,7 +990,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "Participios terminan en -ado, -ido, -to, -so, -cho: COMIDO, PENSADO, ESCRITO"
     },
-    
+
     {
         id: 67,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1000,7 +999,7 @@ const quizDataPart3 = [
         correct: 2,
         procedure: "Tiempo compuesto = auxiliar HABER + participio. 'HEMOS PERDIDO' es correcto."
     },
-    
+
     {
         id: 68,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1009,7 +1008,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "Palabras graves: acento en penúltima sílaba."
     },
-    
+
     {
         id: 69,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1018,7 +1017,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "CASA y CAZA suenan igual pero se escriben diferente = HOMÓFONAS"
     },
-    
+
     {
         id: 70,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1027,7 +1026,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "ADEMÁS suma información = relación ADITIVA"
     },
-    
+
     {
         id: 71,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1036,7 +1035,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "Un párrafo presenta la causa y otro la consecuencia."
     },
-    
+
     {
         id: 72,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1045,7 +1044,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "A PESAR DE indica OBJECIÓN o concesión (contraste)."
     },
-    
+
     {
         id: 73,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1054,7 +1053,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "Oración simple = un solo verbo. 'ENTREGÓ' es el único verbo en D."
     },
-    
+
     {
         id: 74,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1063,7 +1062,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "La argumentación busca DEMOSTRAR y CONVENCER con ideas."
     },
-    
+
     {
         id: 75,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1072,7 +1071,7 @@ const quizDataPart3 = [
         correct: 2,
         procedure: "VOLITIVO = relacionado con la voluntad = VOLUNTARIO"
     },
-    
+
     {
         id: 76,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1081,7 +1080,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "Copretérito termina en -aba, -ía. HABLARÍA es condicional, pero la opción con copretérito sería con -aba."
     },
-    
+
     {
         id: 77,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1090,7 +1089,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "MÁCULA = MANCHA. 'Sin mácula' = sin mancha, limpio."
     },
-    
+
     {
         id: 78,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1099,7 +1098,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "TACITURNO = triste, callado. Antónimo = ALEGRE"
     },
-    
+
     {
         id: 79,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1108,7 +1107,7 @@ const quizDataPart3 = [
         correct: 1,
         procedure: "Error: 'El aroma SE VE' - los aromas se huelen, no se ven."
     },
-    
+
     {
         id: 80,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1117,7 +1116,7 @@ const quizDataPart3 = [
         correct: 0,
         procedure: "'OJALÁ QUE... LLEGUE' es modo SUBJUNTIVO (deseo, posibilidad)."
     },
-    
+
     {
         id: 81,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1126,7 +1125,7 @@ const quizDataPart3 = [
         correct: 3,
         procedure: "Coma para enumerar elementos: pasas, higos, fresas, duraznos y melocotones."
     },
-    
+
     {
         id: 82,
         category: "ESTRUCTURA DE LA LENGUA",
@@ -1143,7 +1142,7 @@ const quizDataPart4 = [
     // ═══════════════════════════════════════════════════════════════
     // COMPRENSIÓN LECTORA (Preguntas 83-110)
     // ═══════════════════════════════════════════════════════════════
-    
+
     {
         id: 83,
         category: "COMPRENSIÓN LECTORA",
@@ -1152,7 +1151,7 @@ const quizDataPart4 = [
         correct: 1,
         procedure: "'Mucho ruido y pocas nueces' = mucha apariencia, poco resultado."
     },
-    
+
     {
         id: 84,
         category: "COMPRENSIÓN LECTORA",
@@ -1161,7 +1160,7 @@ const quizDataPart4 = [
         correct: 2,
         procedure: "'No CREO que...' expresa una OPINIÓN personal, no un hecho."
     },
-    
+
     {
         id: 85,
         category: "COMPRENSIÓN LECTORA",
@@ -1170,7 +1169,7 @@ const quizDataPart4 = [
         correct: 0,
         procedure: "Relacionando conceptos con definiciones."
     },
-    
+
     {
         id: 86,
         category: "COMPRENSIÓN LECTORA",
@@ -1182,7 +1181,7 @@ Recordemos que son cuatro los estadios que caracterizan el desarrollo cognitivo 
         correct: 3,
         procedure: "El párrafo 4 no presenta relación causa-efecto."
     },
-    
+
     {
         id: 87,
         category: "COMPRENSIÓN LECTORA",
@@ -1193,7 +1192,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 1,
         procedure: "La alta concentración de arsénico (no natural) refuerza la teoría del envenenamiento."
     },
-    
+
     {
         id: 88,
         category: "COMPRENSIÓN LECTORA",
@@ -1203,7 +1202,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 1,
         procedure: "Se habría detectado el arsénico antes de su muerte."
     },
-    
+
     {
         id: 89,
         category: "COMPRENSIÓN LECTORA",
@@ -1212,7 +1211,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 0,
         procedure: "El trimetilarsenio era conocido como 'el polvo de la herencia'."
     },
-    
+
     {
         id: 90,
         category: "COMPRENSIÓN LECTORA",
@@ -1221,7 +1220,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 1,
         procedure: "'Ojos color esmeralda brillaban' es lenguaje LITERARIO, no científico."
     },
-    
+
     {
         id: 91,
         category: "COMPRENSIÓN LECTORA",
@@ -1230,7 +1229,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 0,
         procedure: "El reglamento ORDENA y MANDA = función APELATIVA."
     },
-    
+
     {
         id: 92,
         category: "COMPRENSIÓN LECTORA",
@@ -1239,7 +1238,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 2,
         procedure: "Clasificando textos según su función."
     },
-    
+
     {
         id: 93,
         category: "COMPRENSIÓN LECTORA",
@@ -1248,7 +1247,7 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         correct: 0,
         procedure: "Identificando registro lingüístico de cada texto."
     },
-    
+
     {
         id: 94,
         category: "COMPRENSIÓN LECTORA",
@@ -1262,7 +1261,7 @@ mi vida va sin demora..."`,
         correct: 3,
         procedure: "La saeta (flecha) representa una vida que pasa rápido sin dirección clara."
     },
-    
+
     {
         id: 95,
         category: "COMPRENSIÓN LECTORA",
@@ -1271,7 +1270,7 @@ mi vida va sin demora..."`,
         correct: 2,
         procedure: "PERSONIFICACIÓN: la brisa (inanimado) 'besa' como si fuera persona."
     },
-    
+
     {
         id: 96,
         category: "COMPRENSIÓN LECTORA",
@@ -1280,7 +1279,7 @@ mi vida va sin demora..."`,
         correct: 1,
         procedure: "'PORQUE quiero aprender' da una RAZÓN = argumento."
     },
-    
+
     {
         id: 97,
         category: "COMPRENSIÓN LECTORA",
@@ -1296,7 +1295,7 @@ ALD
         correct: 2,
         procedure: "Orden lógico del texto sobre ALD."
     },
-    
+
     {
         id: 98,
         category: "COMPRENSIÓN LECTORA",
@@ -1313,7 +1312,7 @@ Carta a un zapatero:
         correct: 1,
         procedure: "Ordenando la secuencia narrativa correctamente."
     },
-    
+
     {
         id: 99,
         category: "COMPRENSIÓN LECTORA",
@@ -1323,7 +1322,7 @@ Carta a un zapatero:
         correct: 0,
         procedure: "El texto describe agujeros en suelas y bordes filosos = peligrosas aristas."
     },
-    
+
     {
         id: 100,
         category: "COMPRENSIÓN LECTORA",
@@ -1332,7 +1331,7 @@ Carta a un zapatero:
         correct: 2,
         procedure: "'Sacar de quicio' = irritar, EXASPERAR a alguien."
     },
-    
+
     {
         id: 101,
         category: "COMPRENSIÓN LECTORA",
@@ -1341,7 +1340,7 @@ Carta a un zapatero:
         correct: 0,
         procedure: "Descripción de zapatos dañados."
     },
-    
+
     {
         id: 102,
         category: "COMPRENSIÓN LECTORA",
@@ -1350,7 +1349,7 @@ Carta a un zapatero:
         correct: 1,
         procedure: "La NOTICIA es texto informativo."
     },
-    
+
     {
         id: 103,
         category: "COMPRENSIÓN LECTORA",
@@ -1359,7 +1358,7 @@ Carta a un zapatero:
         correct: 0,
         procedure: "La crónica narra hechos reales en orden cronológico."
     },
-    
+
     {
         id: 104,
         category: "COMPRENSIÓN LECTORA",
@@ -1370,7 +1369,7 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
         correct: 3,
         procedure: "El párrafo 4 no presenta relación de causa-efecto."
     },
-    
+
     {
         id: 105,
         category: "COMPRENSIÓN LECTORA",
@@ -1379,7 +1378,7 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
         correct: 2,
         procedure: "EPÍLOGO = parte final, CONCLUSIÓN de una obra."
     },
-    
+
     {
         id: 106,
         category: "COMPRENSIÓN LECTORA",
@@ -1388,7 +1387,7 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
         correct: 0,
         procedure: "'De la misma manera' establece COMPARACIÓN/ANALOGÍA."
     },
-    
+
     {
         id: 107,
         category: "COMPRENSIÓN LECTORA",
@@ -1397,7 +1396,7 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
         correct: 1,
         procedure: "'Por lo contrario' indica CONTRASTE."
     },
-    
+
     {
         id: 108,
         category: "COMPRENSIÓN LECTORA",
@@ -1406,7 +1405,7 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
         correct: 3,
         procedure: "'Por consiguiente' indica CONSECUENCIA."
     },
-    
+
     {
         id: 109,
         category: "COMPRENSIÓN LECTORA",
@@ -1415,7 +1414,7 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
         correct: 3,
         procedure: "Ordenadores: 'Para terminar', 'Por otra parte', 'A partir de'."
     },
-    
+
     {
         id: 110,
         category: "COMPRENSIÓN LECTORA",
@@ -1427,8 +1426,3 @@ DESARROLLO COGNITIVO SEGÚN JEAN PIAGET (continuación)`,
 ];
 
 quizData.push(...quizDataPart4);
-
-// Función auxiliar para obtener preguntas por categoría
-function getQuestionsByCategory(cat) {
-    return quizData.filter(q => q.category === cat);
-}
