@@ -1269,12 +1269,40 @@ RESPUESTA: A) 1B, 2D, 3A, 4C`
         id: 86,
         category: "COMPRENSIÓN LECTORA",
         reading: `Lee el texto y contesta las preguntas siguientes.
+
 DESARROLLO COGNITIVO SEGÚN JEAN PIAGET
-Recordemos que son cuatro los estadios que caracterizan el desarrollo cognitivo del niño y del adolescente. El primero se denomina sensoriomotor y abarca el período que va de los 0 a los 2 años...`,
+
+Recordemos que son cuatro los estadios que caracterizan el desarrollo cognitivo del niño y del adolescente. El primero se denomina sensoriomotor y abarca el período que va de los 0 a los 2 años aproximadamente.
+
+PÁRRAFO 1:
+Los primeros movimientos voluntarios son extensiones de los actos reflejos, de allí que la mayor parte de sus movimientos se dirijan al propio cuerpo y no a objetos distantes. Durante este período y ante la creciente coordinación visuo-motriz, el bebé ya puede dirigir ansiosamente un impulso al objeto e ir en su búsqueda, por lo que se dice que ya está en condiciones de representar el hábito que lo unía a los símbolos mentales, otra característica de esta fase es el inicio del juego simbólico.
+
+PÁRRAFO 2:
+El segundo período es el preoperacional que comprende desde los 2 años hasta los 7 años aproximadamente, asimismo a éste lo podemos dividir en dos subetapas: una preconceptual que se extiende entre los 2 a 4 años en donde la habilidad más destacada pasa por el razonamiento transductivo, esto significa sencillamente que los niños razonan, pero sin el rigor de la lógica inductiva o deductiva, sino yendo de un caso particular a otro caso particular con la finalidad de formar preconceptos; un ejemplo de esto sería cuando los niños observan a sus madres peinándose y en una ocasión ellos la hacían para ir de compras, a partir de una situación similar siempre asociarán que salen de compras.
+
+PÁRRAFO 3:
+El segundo subperíodo es el intuitivo, su edad mental transcurre entre los 4 a 7 años aproximadamente, su inteligencia se circunscribe a ser meramente impresionista, ya que solo capta un aspecto de la situación, carecen aún de la capacidad de conservación de cantidad y ésto se debe entre otras cosas a que son incapaces de retroceder al proceso o punto de origen.
+
+PÁRRAFO 4:
+El tercer estadio del desarrollo cognitivo es el operatorio concreto, su período se extiende entre los 7 a 11 años aproximadamente, el razonamiento se vincula en esta etapa casi exclusivamente con la experiencia concreta. Tiene la capacidad de describir su medio, también ya adquirirá la facilidad de conservación de sustancias y peso como asimismo la habilidad de análisis y la formación de clasificaciones coherentes.`,
         question: "En los siguientes párrafos del texto se encuentran relaciones de causa-efecto, EXCEPTO en:",
         options: ["A) 1", "B) 2", "C) 3", "D) 4"],
         correct: 3,
-        procedure: "El párrafo 4 no presenta relación causa-efecto."
+        procedure: `PASO 1: Buscar relaciones causa-efecto en cada párrafo
+
+PÁRRAFO 1: "de allí que la mayor parte de sus movimientos se dirijan..."
+→ HAY relación causa-efecto (CAUSA: reflejos → EFECTO: movimientos)
+
+PÁRRAFO 2: "esto significa sencillamente que los niños razonan... a partir de una situación similar siempre asociarán"
+→ HAY relación causa-efecto (CAUSA: observación → EFECTO: asociación)
+
+PÁRRAFO 3: "ésto se debe entre otras cosas a que son incapaces..."
+→ HAY relación causa-efecto (CAUSA: incapacidad → EFECTO: no conservan)
+
+PÁRRAFO 4: Solo DESCRIBE características, NO establece causa-efecto
+→ NO HAY relación causa-efecto
+
+RESPUESTA: D) 4`
     },
 
     {
