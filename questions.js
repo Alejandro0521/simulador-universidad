@@ -792,9 +792,14 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
         id: 41,
         category: "PENSAMIENTO ANALÍTICO",
         question: "Identifica la secuencia que le corresponde.",
-        options: ["A) Opción A", "B) Opción B", "C) Opción C", "D) Opción D"],
+        reading: `Observa la siguiente secuencia de figuras y determina cuál continúa el patrón:
+
+⬜ → ⬛ → ⬜⬛ → ⬛⬜⬛ → ?
+
+La secuencia alterna colores y agrega un elemento en cada paso.`,
+        options: ["A) ⬜⬛⬜⬛", "B) ⬛⬛⬛⬛", "C) ⬜⬜⬜⬜", "D) ⬛⬜⬛⬜"],
         correct: 0,
-        procedure: "Analizando el patrón de la secuencia visual."
+        procedure: "El patrón alterna colores comenzando con el opuesto al anterior y agregando uno más. Siguiente: ⬜⬛⬜⬛"
     },
 
     {
@@ -822,10 +827,28 @@ B = ⭐ | E = 🔷 | C = 🟣 | A = 🔺
     {
         id: 44,
         category: "PENSAMIENTO ANALÍTICO",
-        question: "En la siguiente tabla se muestra la tasa de desempleo en distintas ciudades de nuestro país. ¿Cuál ciudad es la excepción, comprendido entre 1994 y el año 2000?",
+        question: "En la siguiente tabla se muestra la tasa de desempleo en distintas ciudades. ¿Cuál afirmación es VERDADERA?",
+        reading: `TABLA: Tasa de desempleo por ciudad (1994-2000)
+
+| Ciudad      | 1994 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 |
+|-------------|------|------|------|------|------|------|------|
+| Tijuana     | 0.9  | 1.1  | 1.4  | 1.2  | 1.1  | 1.1  | 1.1  |
+| Acapulco    | 1.5  | 1.8  | 1.7  | 1.9  | 1.3  | 0.7  | 0.3  |
+| Villahermosa| 2.6  | 4.6  | 4.2  | 3.1  | 3.5  | 1.4  | 2.6  |
+| Nuevo Laredo| 1.8  | 3.8  | 2.8  | 4.6  | 3.8  | 1.1  | 1.7  |
+| Oaxaca      | 1.8  | 2.7  | 2.1  | 2.5  | 1.5  | 1.7  | 1.8  |
+| Tepic       | 2.7  | 3.4  | 2.4  | 4.6  | 3.2  | 3.2  | 2.5  |
+| Orizaba     | 1.9  | 3.4  | 3.8  | 3.8  | 3.3  | 2.5  | 2.2  |`,
         options: ["A) Tijuana fue una de las ciudades con la tasa de desempleo más baja de 1994 al 2000", "B) En general, hubo una reducción en la tasa de desempleo entre 1999 y 2000", "C) Tepic fue la ciudad que presentó la tasa más alta de desempleo en 1999", "D) Mérida tuvo la misma tasa de desempleo durante dos años consecutivos"],
-        correct: 3,
-        procedure: "Mérida mantuvo 2.7% en dos años consecutivos."
+        correct: 0,
+        procedure: `PASO 1: Verificar cada opción con la tabla
+
+A) Tijuana (0.9-1.4%) siempre tuvo las tasas más bajas ✓ VERDADERO
+B) No todas las ciudades bajaron entre 1999-2000
+C) Tepic en 1999 = 3.2%, Nuevo Laredo tuvo 4.6% en 1997
+D) Mérida no aparece en la tabla
+
+RESPUESTA: A) Tijuana fue una de las ciudades con la tasa de desempleo más baja`
     },
 
     {
@@ -1066,10 +1089,28 @@ const quizDataPart3 = [
     {
         id: 67,
         category: "ESTRUCTURA DE LA LENGUA",
-        question: "De la siguiente lista de oraciones, selecciona aquella en que el tiempo compuesto del modo indicativo de los verbos esté empleando correctamente.",
-        options: ["A) 3 y 5", "B) 5, 4 y 6", "C) Hemos perdido aquí este crepúsculo", "D) 1, 5 y 3"],
+        question: "De la siguiente lista de oraciones, selecciona aquella en que el tiempo compuesto del modo indicativo esté empleado correctamente.",
+        reading: `Lista de oraciones:
+1. Siempre haces todo de prisa
+2. He gastado todo el dinero que tenía
+3. Habremos terminado todos nuestros deberes
+4. Has retrasado los límites de lo permitido
+5. Haré reír a todos con las ocurrencias
+6. Hemos perdido aquí este crepúsculo`,
+        options: ["A) 3 y 5", "B) 5, 4 y 6", "C) 2, 4 y 6", "D) 1, 5 y 3"],
         correct: 2,
-        procedure: "Tiempo compuesto = auxiliar HABER + participio. 'HEMOS PERDIDO' es correcto."
+        procedure: `PASO 1: Identificar tiempos compuestos (HABER + participio)
+
+1. "haces" = presente simple (NO compuesto)
+2. "He gastado" = pretérito perfecto compuesto ✓
+3. "Habremos terminado" = futuro perfecto ✓
+4. "Has retrasado" = pretérito perfecto compuesto ✓
+5. "Haré reír" = futuro simple (NO compuesto)
+6. "Hemos perdido" = pretérito perfecto compuesto ✓
+
+Oraciones con tiempo compuesto correcto: 2, 4 y 6
+
+RESPUESTA: C) 2, 4 y 6`
     },
 
     {
@@ -1103,9 +1144,29 @@ const quizDataPart3 = [
         id: 71,
         category: "ESTRUCTURA DE LA LENGUA",
         question: "Determina el tipo de relación que presentan los párrafos anteriores.",
+        reading: `Lee el siguiente párrafo y responde:
+
+En días pasados, los puntos IMECA se incrementaron en la Ciudad de México, es una situación alarmante que preocupa a todos los ciudadanos y por supuesto a las autoridades de la ciudad. El índice aproximadamente a los 200 puntos, el cielo se observaba más gris que de costumbre, en las personas más vulnerables provocó ardor en la garganta y en la nariz.
+
+Debido a tal situación, se implementaron medidas, como la implantación del doble "Hoy no circula", se realizaron campañas televisivas que advertían a la población de no realizar ejercicio físico al aire libre, además se prohibió a las escuelas que realizaran actividades deportivas. Los vehículos de pasajeros dejaron de circular, a excepción de los de emergencia, como las ambulancias, bomberos y policía.`,
         options: ["A) Causa - consecuencia", "B) Comparación", "C) Coordinación", "D) Subordinación"],
         correct: 0,
-        procedure: "Un párrafo presenta la causa y otro la consecuencia."
+        procedure: `PASO 1: Analizar la estructura de los párrafos
+
+Párrafo 1: Describe el PROBLEMA (causa)
+- Puntos IMECA se incrementaron
+- Cielo gris, ardor en garganta
+
+Párrafo 2: Describe las MEDIDAS TOMADAS (consecuencia)
+- "Debido a tal situación" (conector de consecuencia)
+- Doble "Hoy no circula"
+- Campañas, prohibiciones
+
+PASO 2: La relación es CAUSA-CONSECUENCIA
+El primer párrafo presenta la causa (contaminación)
+El segundo párrafo presenta las consecuencias (medidas)
+
+RESPUESTA: A) Causa - consecuencia`
     },
 
     {
@@ -1357,18 +1418,56 @@ En los estudios de los restos de Napoleón Bonaparte, se encontraron altas conce
         id: 92,
         category: "COMPRENSIÓN LECTORA",
         question: "Relaciona el tipo de texto con su clasificación correcta.",
-        options: ["A) 1C, 2A, 3B, 4D", "B) 1A, 2B, 3C, 4D", "C) 1B, 2C, 3A, 4D", "D) 1D, 2C, 3B, 4A"],
-        correct: 2,
-        procedure: "Clasificando textos según su función."
+        reading: `COLUMNA 1 (Tipos de texto):
+1. Manual de instrucciones
+2. Poema
+3. Artículo científico
+4. Anuncio publicitario
+
+COLUMNA 2 (Clasificación):
+A. Texto literario
+B. Texto expositivo
+C. Texto apelativo
+D. Texto informativo`,
+        options: ["A) 1C, 2A, 3B, 4D", "B) 1B, 2A, 3D, 4C", "C) 1B, 2C, 3A, 4D", "D) 1D, 2C, 3B, 4A"],
+        correct: 1,
+        procedure: `PASO 1: Clasificar cada tipo de texto
+
+1. Manual de instrucciones → B) Texto expositivo (explica cómo hacer algo)
+2. Poema → A) Texto literario (expresión artística)
+3. Artículo científico → D) Texto informativo (presenta datos)
+4. Anuncio publicitario → C) Texto apelativo (busca convencer)
+
+RESPUESTA: B) 1B, 2A, 3D, 4C`
     },
 
     {
         id: 93,
         category: "COMPRENSIÓN LECTORA",
         question: "Relaciona el nivel de lenguaje con su ejemplo.",
-        options: ["A) 1C, 2A, 3B", "B) 1A, 2B, 3C", "C) 1B, 2C, 3A", "D) 1C, 2B, 3A"],
+        reading: `COLUMNA 1 (Niveles de lenguaje):
+1. Lenguaje coloquial
+2. Lenguaje culto
+3. Lenguaje técnico
+
+COLUMNA 2 (Ejemplos):
+A. "La función enzimática cataliza reacciones metabólicas"
+B. "Estimado señor, me permito dirigirme a usted..."
+C. "¡Órale wey, qué onda con eso!"`,
+        options: ["A) 1C, 2B, 3A", "B) 1A, 2B, 3C", "C) 1B, 2C, 3A", "D) 1C, 2A, 3B"],
         correct: 0,
-        procedure: "Identificando registro lingüístico de cada texto."
+        procedure: `PASO 1: Identificar cada nivel
+
+1. Lenguaje coloquial = informal, cotidiano
+   → C) "¡Órale wey..." (expresiones informales)
+
+2. Lenguaje culto = formal, educado
+   → B) "Estimado señor..." (vocabulario formal)
+
+3. Lenguaje técnico = especializado
+   → A) "función enzimática..." (términos científicos)
+
+RESPUESTA: A) 1C, 2B, 3A`
     },
 
     {
